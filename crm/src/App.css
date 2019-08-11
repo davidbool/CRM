@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#popUp{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  width: 30%;
+}
+#NewUsersMonth{
+  font-size: 124px;
+  color: white;
+  background-color: green;
+  border-radius: 70px;
+  height: 143px;
+  width: 148px;
+  text-align: center;
+  box-sizing: border-box;
+    padding-top: 2%;
+}
+#EmailsSent{
+  font-size: 124px;
+  color: white;
+  background-color: blue;
+  border-radius: 70px;
+  height: 143px;
+  width: 148px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 2%;
+}
+#OutstandingClients{
+  font-size: 124px;
+  color: white;
+  background-color: red;
+  border-radius: 70px;
+  height: 143px;
+  width: 148px;
+  text-align: center;
+  box-sizing: border-box;
+    padding-top: 2%;
+
+}
+#HottestCountry{
+  font-size: 124px;
+  color: white;
+  background-color: yellow;
+  border-radius: 70px;
+  height: 143px;
+  width: 148px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 2%;
+}
